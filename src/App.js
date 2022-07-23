@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+import Navbar from './components/Navbar';
+import Body from './components/Body';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+        <MainContent>
+          <Body/>
+        </MainContent>
     </div>
   );
 }
 
 export default App;
+
+const MainContent = styled.div`
+  margin-top: 6vh;
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
