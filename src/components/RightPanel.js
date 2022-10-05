@@ -61,6 +61,7 @@ const Container = styled.div`
 const MyProfile = styled.div`
   display: flex;
   width: 100%;
+  cursor: pointer;
 `
 
 const MyProfileLeft = styled.div`

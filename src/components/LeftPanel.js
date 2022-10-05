@@ -19,5 +19,4 @@ const Container = styled.div`
         width: 80vw;
     }
     width: 450px;
-    /* border: 1px solid purple; */
 `

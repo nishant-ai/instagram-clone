@@ -15,7 +15,8 @@ function Body() {
 export default Body
 
 const Container = styled.div`
-  height: 100%;
   display: flex;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 `

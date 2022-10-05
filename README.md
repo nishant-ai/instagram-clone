@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+![hacktoberfest](https://github.com/nishant-ai/TravelGo/blob/main/hacktoberfestbanner.webp)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## TravelGo:
 
-## Available Scripts
+Hola Señoras and Amigos!
 
-In the project directory, you can run:
+It is Instagram Clone created using ReactJS and Styled-Components.
 
-### `npm start`
+### Tech Stack:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎃 Hacktoberfest 🎃
 
-### `npm test`
+    if (programmer.level >= Beginner) {
+        contribution();
+    }
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This Repository Accepts Hacktoberfest Pull Requests!
+Let's connect and create wonderful projects!
 
-### `npm run build`
+![gatsby 1497548146](https://user-images.githubusercontent.com/80044482/194142232-f1a68662-917d-438b-84c0-2b246907fbbd.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Want to Contribute?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Steps for Contributing:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Star the Repository.
+- Fork the Project.
+- Clone from your Repositories.
+- Create your Branch.
+- Commit Changes.
+- Create Pull Request.
 
-### `npm run eject`
+### Types of Contributions Accepted:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Either Create Your Own Issues, Or Find Existing Issues, you can contribute to.
+- Ask for Assigning.
+- Start Working on Assigned Task!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Happy Hacking!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### #Hacktoberfest-Accepted ✨
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![meme](https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/states-of-a-programmer.png)

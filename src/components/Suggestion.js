@@ -23,6 +23,7 @@ function Suggestion() {
 export default Suggestion
 
 const MyProfile = styled.div`
+  cursor: pointer;
   display: flex;
   width: 100%;
   margin-bottom: 1.6vh;

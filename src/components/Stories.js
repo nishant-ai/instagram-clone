@@ -1,14 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import Story from './Story'
-import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
 function Stories() {
   return (
       <Container>
-        {/* <CustomLeftScroll/>
-        <CustomRigtScroll/> */}
         <Story/><Story/><Story/><Story/><Story/><Story/>
         <Story/><Story/><Story/><Story/><Story/><Story/>
         <Story/><Story/><Story/><Story/><Story/><Story/>
@@ -34,25 +30,4 @@ const Container = styled.div`
   &::-webkit-scrollbar{
     display: none;
   }
-`
-
-const CustomLeftScroll = styled(KeyboardArrowLeftIcon)`
-  z-index: 1;
-  position: absolute;
-  left: 19vw;
-  color: gray;
-  background-color: white;
-  border-radius: 100%;
-`
-
-const CustomRigtScroll = styled(KeyboardArrowRightIcon)`
-  @media (max-width: 1000px) {
-    right: 19vw;
-  } 
-  z-index: 1;
-  position: absolute;
-  right: 50vw;
-  color: gray;
-  background-color: white;
-  border-radius: 100%;
 `

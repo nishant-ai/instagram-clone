@@ -50,6 +50,7 @@ const Container = styled.div`
 `
 
 const Logo = styled.img`
+    cursor: pointer;
     @media (max-width: 800px) {
         margin-left: 5px;
     }
@@ -95,39 +96,46 @@ const NavLinks = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    @media (max-width: 626) {
+    @media (max-width: 626px) {
+        flex: 1;
         margin-right: 10px;
     }
 `
 
-const Profile = styled.div`
-    height: 2.5vh;
-    width: 2.5vh;
+const Profile = styled.img`
+    height: 20px;
+    width: 20px;
     border-radius: 100%;
-    background-color: #333333;
+    background-color: black;
+    cursor: pointer;
 `
 
 const CustomHome = styled(HomeIcon)`
-    margin-right: 2.5vw;
+    margin-right: 1vw;
     color: #333333;
+    cursor: pointer;
 `
 
 const CustomMessage = styled(MessageRoundedIcon)`
-    margin-right: 2.5vw;
+    margin-right: 1vw;
     color: #333333;
+    cursor: pointer;
 `
 
 const CustomAdd = styled(AddTwoToneIcon)`
-    margin-right: 2.5vw;
+    margin-right: 1vw;
     color: #333333;
+    cursor: pointer;
 `
 
 const CustomLike = styled(FavoriteBorderTwoToneIcon)`
-    margin-right: 2.5vw;
+    margin-right: 1vw;
     color: #333333;
+    cursor: pointer;
 `
 
 const CustomExplore = styled(ExploreIcon)`
-    margin-right: 2.5vw;
+    margin-right: 1vw;
     color: #333333;
+    cursor: pointer;
 `

@@ -18,8 +18,7 @@ export default Posts
 
 const Container = styled.div`
     margin-top: 10px;
-    /* border: 1px solid green; */
-    height: 80vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

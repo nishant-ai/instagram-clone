@@ -45,7 +45,7 @@ function Post() {
         <PostComment>
             <PostCommentLeft>
                 <TagFacesIcon/>
-                <AddComment>Add a Comment...</AddComment>
+                <AddComment placeholder='Add a Comment...' />
             </PostCommentLeft>
             <PostBtn>Post</PostBtn>
         </PostComment>
@@ -96,7 +96,7 @@ const HeaderRight = styled.div`
 `
 
 const PostContent = styled.img`
-    object-fit: contain;
+    object-fit: cover;
     height: 60vh;
     width: 100%;
 `
@@ -172,9 +172,10 @@ const PostCommentLeft = styled.div`
     align-items: center;
 `
 
-const AddComment = styled.div`
+const AddComment = styled.input`
+    border: none;
+    outline: none;
     margin-left: 10px;
-    color: #7B7B7B;
     font-size: 14px;
 `
 
