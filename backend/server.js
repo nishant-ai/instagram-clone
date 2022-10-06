@@ -1,52 +1,37 @@
-import express from "express";
-import cors from "cors";
-import mongoose from "mongoose";
-import Pusher from "pusher";
-import posts from './models.js';
+const express = require('express')
+const app = express()
+const port = 3000 || process.env.PORT
+const cors = require('cors')
+const dotenv = require('dotenv')
+const mongoose = require('mongoose')
+const { readdirSync } = require('fs')
 
-// App Config
-const app = express();
-const PORT = process.env.PORT || 8080;
+// Load environment variables
+dotenv.config()
+app.use(express.json()) // Parse JSON bodies
+app.use(cors())
+//   {
+//     origin: '',
+//     optionsSuccessStatus: 200,
+//   }
 
-// Middlewares
-app.use(express.json());
-app.use(cors());
+// Added All Routes
+readdirSync('./Routes').map((r) => app.use('/', require('./Routes/' + r)))
 
-// DB config
-mongoose.connect(
-    'mongodb+srv://instagram_clone:igItsInstagram101@cluster0.6zzwfkx.mongodb.net/?retryWrites=true&w=majority',
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-})
-mongoose.connection.once('open', () => {
-    console.log("Mongo Says Hi! 👋🏻");
-})
+// app.get('/', (req, res) => res.send('Hello World!'))
 
-// API routes
-app.get('/', (req, res) => res.status(200).send("Hello World"))
-
-app.post('/upload', (req, res) => {
-
-    console.log("<POST>")
-
-    const body = req.body;
-
-    posts.create(body, (err, data) => {
-        if (err) res.status(500).send(err);
-        else res.status(201).send(data);
-    });
-    console.log("</POST>")
-});
-
-app.get('/sync', (req, res) => {
-    posts.find((err, data) => {
-        if (err) res.status(500).send(err);
-        else res.status(201).send(data);
-    });
-});
-
-// Server Listen
-app.listen(PORT, () => {
-    console.log(`app listening @PORT:${PORT}`);
-})
+app.listen(port, () =>
+  console.log(`Server is Running on port http://localhost:${port}`)
+)
+mongoose
+  .connect(process.env.MONGO_DB, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log('MongoDB Connected'))
+  .catch((err) =>
+    console.log({
+      message: 'MongoDB Connection Failed',
+      error: err.message,
+    })
+  )
