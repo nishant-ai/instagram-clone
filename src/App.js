@@ -1,30 +1,21 @@
-import './App.css';
-import styled from 'styled-components';
-
-import Navbar from './components/Navbar';
-import Body from './components/Body';
-import ImageUpload from './components/ImageUpload';
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+// import ImageUpload from './components/ImageUpload';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <MainContent>
-        <Body/>
-      </MainContent>
-      {/* <ImageUpload /> */}
-    </div>
-  );
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
+        {/* <Route path="/upload" element={<ImageUpload />} /> */}
+      </Routes>
+    </>
+  )
 }
 
-export default App;
-
-const MainContent = styled.div`
-  margin-top: 6vh;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-`
+export default App
