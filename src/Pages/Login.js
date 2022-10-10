@@ -15,7 +15,7 @@ function Login() {
           <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
         </head>
         <div calss='login'>
-          <h1><img src="https://i.imgur.com/wvLiKam.png" width="200px" height="68px" /></h1>
+          <h1><img src="https://i.imgur.com/wvLiKam.png" width="200px" height="68px" alt=""/></h1>
           <form action="" method="POST">
             <input placeholder="Phone number, username, or email" type="text" name="username" />
             <input placeholder="Password" type="password" name="password" />
@@ -24,7 +24,7 @@ function Login() {
         </div>
         <div class="divider"><b>OR</b></div>
         <div class="forgotwrapper">
-          <div class="fb"><a href="https://facebook.com"><img src="https://i.imgur.com/exksovo.png" /> Log in with Facebook</a></div>
+          <div class="fb"><a href="https://facebook.com"><img src="https://i.imgur.com/exksovo.png" alt=''/> Log in with Facebook</a></div>
         </div>
         <div class="infobox">
 
@@ -33,7 +33,7 @@ function Login() {
         </div>
         <div class='apps'>
           <p>Get the app.</p>
-          <span><a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="https://i.imgur.com/lREV6Qa.png" height="45px" width="153px" /></a><a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DXRR9_gALAAHKOzMSO3MkAOZ0JJtC%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="https://i.imgur.com/DFQNKXK.png" height="45" width="151px" /></a></span>
+          <span><a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="https://i.imgur.com/lREV6Qa.png" height="45px" width="153px" alt='' /></a><a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DXRR9_gALAAHKOzMSO3MkAOZ0JJtC%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="https://i.imgur.com/DFQNKXK.png" height="45" width="151px" alt='' /></a></span>
         </div>
         <div class="footer">
           <p>
